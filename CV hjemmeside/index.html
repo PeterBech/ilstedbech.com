@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Peter Ilsted Bech</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="assets/img/ProfilMig.jpg" alt="" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center"> 
+      <h1 class="sitename">Peter Ilsted Bech</h1>
+    </a>
+
+    <div class="social-links text-center">
+      <a href="mailto:pibm90@gmail.com" class="gmail" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-envelope"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/peter-ilsted-bech-17477175/" class="linkedin" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="https://www.facebook.com/peter.mortensen.33" class="facebook" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="https://github.com/PeterBech" class="github" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github"></i>
+      </a>
+      <a href="tel:+4529394920" class="phone" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-telephone"></i>
+      </a>
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Hjem</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> Om mig</a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        
+        <li class="dropdown"><a href="#portfolio"><i class="bi bi-menu-button navicon"></i> <span>Portfolie</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <ul>
+            <li><a href="Gotorz.html"> Gotorz</a></li>
+            <li><a href="ScoutsProgram.html">SpejderApplikation</a></li>
+          </ul>
+        </li> <!-- End of dropdown menu -->
+                
+        <!-- Dropdown menu for Speciale
+        <li class="dropdown"><a href="#Speciale"><i class="bi bi-menu-button navicon"></i> <span>Speciale</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <ul>
+            <li class="dropdown"><a href="#"><span></span>Backend Architecture</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+                <li><a href="#">Deep Dropdown 1</a></li>
+                <li><a href="#">Deep Dropdown 2</a></li>
+                <li><a href="#">Deep Dropdown 3</a></li>
+                <li><a href="#">Deep Dropdown 4</a></li>
+                <li><a href="#">Deep Dropdown 5</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="#"><span>CI/CD Pipelies</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="#">Deep Dropdown 1</a></li>
+                <li><a href="#">Deep Dropdown 2</a></li>
+                <li><a href="#">Deep Dropdown 3</a></li>
+                <li><a href="#">Deep Dropdown 4</a></li>
+                <li><a href="#">Deep Dropdown 5</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="#"><span>Database Design</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="#">Deep Dropdown 1</a></li>
+                <li><a href="#">Deep Dropdown 2</a></li>
+                <li><a href="#">Deep Dropdown 3</a></li>
+                <li><a href="#">Deep Dropdown 4</a></li>
+                <li><a href="#">Deep Dropdown 5</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>  End of dropdown menu -->
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="assets/img/RoligThuja.jpg" alt="" data-aos="fade-in" class="">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <h2>Peter Ilsted Bech</h2>
+        <p>Jeg er <span class="typed" data-typed-items="Studerende, Udvikler, Far, Forhenværende murer">Designer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Om mig</h2>
+        <p>Jeg er Datamatiker studerende (online) ved UCL, hvor jeg er godt i gang med 3. semester, 
+          som omhandler Web-Development. Her arbejder jeg med .NET ASP CORE frameworks og Blazor.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="assets/img/StrandMig.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 content">
+            <h2>Teknologisk nysgerrighed</h2>
+            <p class="fst-italic py-3">
+              Under studiet har jeg fået stor interesse for moderne udviklingsværktøjer og AI-teknologier. 
+              Jeg eksperimenterer løbende med integration af LLM’er som ChatGPT og LeChat i mit workflow
+               <br>– både til læring, udvikling <br>– og tester desuden AI-plugins direkte i min IDE for at styrke produktivitet og kodekvalitet.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Fødselsdag:</strong> <span>17 Marts 1990</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Mobil:</strong> <span>+45 29 39 49 20</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>By:</strong> <span>Nyby, Vejen</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Alder:</strong> <span>35</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Uddannelse:</strong> <span>Studerende</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>pibm90@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+            </div>
+            <h2>Baggrund og motivation</h2>
+            <p class="py-3">
+              Jeg er 35 år og bosiddende i Vejen Kommune med min familie. 
+              Efter en 10-årig karriere som murer valgte jeg at skifte spor for at følge min mangeårige interesse for IT og softwareudvikling. 
+              Overgangen til datamatikeruddannelsen har været utroligt motiverende og meningsfuld, 
+              og jeg trives rigtig godt med at kombinere min praktiske baggrund med ny teknisk viden.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+        <p>Selvom at det er en abstrakt målestok for mine kompetencer, vil jeg gennem studiet anse, at jeg har oparbejdet følgende kompetencer</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row skills-content skills-animation">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>C#</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+            
+            <div class="progress">
+              <span class="skill"><span>msSQL</span> <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>XAML</span> <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+            
+            <div class="progress">
+              <span class="skill"><span>DevOps</span> <i class="val">20%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>OOA/D</span> <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Projektstyring</span> <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>HTML</span> <i class="val">40%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>CSS</span> <i class="val">35%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p>Jeg er en 35-årig familiefar, der skifter karriere fra murer til IT og har opbygget kompetencer inden for .NET-udvikling, databaser og softwaredesign. Jeg søger et studiejob for at finpudse mine færdigheder og bidrage med min arbejdsomhed og faglige stolthed.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Opsummering</h3>
+
+            <div class="resume-item pb-0">
+              <h4>Peter Ilsted Bech</h4>
+              <p><em>35-årig familiefar, der skifter karriere fra murer til IT og har opbygget kompetencer inden for .NET-udvikling, databaser og softwaredesign. Jeg søger et studiejob for at finpudse mine færdigheder og bidrage med min arbejdsomhed og faglige stolthed.</em></p>
+              <ul>
+                <li>Vejen, Jylland</li>
+                <li>+45 29 39 49 20</li>
+                <li>pibm90@gmail.com</li>
+              </ul>
+            </div><!-- End Resume Item -->
+
+            <h3 class="resume-title">Uddannelse</h3>
+            <div class="resume-item">
+              <h4>Datamatiker</h4>
+              <h5>2024-2026</h5>
+              <p><em>Institution: UCL</em></p>
+              <p>I gang med et online studie ved UCL, med faste mødegange Tirsdage og Torsdage, og selvstudium resten af ugen.</p>
+            </div><!-- End Resume Item -->
+
+            <div class="resume-item">
+              <h4>Faglært murersvend</h4>
+              <h5>Udlært 2017</h5>
+              <p><em>Institution: Learnmark Horsens</em></p>
+              <p>Modtaget svendebrev efter 3.5 års læretid ved Murer- og Betonfirmaet Erling Jørgensen A/S</p>
+            </div><!-- End Resume Item -->
+
+            <div class="resume-item">
+              <h4>Studentereksamen</h4>
+              <h5>2008-2010</h5>
+              <p><em>Institution: Gladsaxe Gymnasie</em></p>
+              <p>Afsluttet en samfundsfaglig studentereksamen</p>
+            </div><!-- End Resume Item -->
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Professionel erfaring</h3>
+            <div class="resume-item">
+              <h4>Medstuderende mentor</h4>
+              <h5>April 2025 - Present</h5>
+              <p><em>Vejleder i studiecafe </em></p>
+              <ul>
+                <li>Siddet og vejledt årgang DMOof26 siden medio 3. semester</li> 
+              </ul>
+            </div><!-- End Resume Item -->
+
+            <div class="resume-item">
+              <h4>Cykelhandler</h4>
+              <h5>April 2025 - Present</h5>
+              <p><em>Studiejob ved  Cykelpusher i Kolding</em></p>
+              <ul>
+                <li>Udført lette reparationer af cykler</li>
+                <li>Service af cykler</li>
+                <li>Klargjort cykler til udlevering</li>
+                <li>Passet butikken alene</li>
+              </ul>
+            </div><!-- End Resume Item -->
+
+            <div class="resume-item">
+              <h4>Smørudpakker</h4>
+              <h5>Marts 2024 - November 2024</h5>
+              <p><em>Studiejob ved Jacobsen Bakery</em></p>
+              <ul>
+                <li>Pakket smør ud, og stillet til temperering, inden det kunne indgå i produktionen.</li>
+                <li>Tømt lastbiler med gaffeltruck.</li>
+                <li>Hjulpet til på lager.</li>
+                <li>Pakket småkager til special ordre.</li>
+              </ul>
+            </div><!-- End Resume Item -->
+
+            <div class="resume-item">
+              <h4>Murersvend</h4>
+              <h5>August 2013 - December 2023</h5>
+              <p><em>Service og nybyg</em></p>
+              <ul>
+                <li>Gået alene som servicemurer.</li>
+                <li>Arbejdet i sjak ved nybyg.</li>
+                <li>Stået for oplæringen af lærlinge i 10 år.</li>
+                <li>stået for kvalitetskontrol af mit eget arbejde</li>
+              </ul>
+            </div><!-- End Resume Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>
+          Som studerende på 3. semester af Datamatikeruddannelsen, 
+          med fokus på .NET og webudvikling, 
+          har jeg arbejdet med en række projekter, 
+          som afspejler mine faglige kompetencer og praktiske erfaringer.
+        </p>
+        <p>
+          Denne portefølje viser udvalgte projekter, 
+          hvor jeg har arbejdet med både backend og frontend-teknologier 
+          – herunder ASP.NET Core, Blazor, Entity Framework, REST APIs, 
+          C#, samt databaser som SQLite og SQL Server.
+        </p>
+        <p>  
+          Alle projekter er skabt som en del af min uddannelse eller personlige interesse, 
+          og afspejler mit fokus på clean code, 
+          softwarearkitektur og brugen af moderne udviklingsværktøjer som Git, 
+          Docker og Visual Studio.
+        </p>
+        <p>
+          Mit mål med porteføljen er at give et indblik i, 
+          hvordan jeg anvender teori i praksis, 
+          arbejder struktureret med udviklingsprocessen 
+          – og løbende forbedrer mine tekniske og samarbejdsmæssige kompetencer. 
+        </p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <!-- Portfolio Filters
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-SchoolProjects">Skoleprojekt</li>
+            <li data-filter=".filter-WPF">WPF</li>
+            <li data-filter=".filter-WebDev">Web-Development</li>
+          </ul><!-- End Portfolio Filters -->
+            <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">  
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-SchoolProjects filter-WebDev">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/Gotorz/SearchDestination.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Gotorz</h4>
+                  <p>Datamatiker - 3. semester projekt <br>Bygget og deployet mvp rejse webshop</p>
+                  <!-- Tech stack icons-->
+                  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+                  <div class="tech-stack-wrapper">
+                    <div class="tech-stack">
+                      <i class="devicon-csharp-plain colored" title="C#"></i>
+                      <i class="devicon-dotnetcore-plain colored" title=".NET / Blazor / Razor Pages"></i>
+                      <i class="devicon-sqlite-plain colored" title="SQLite"></i>
+                      <i class="devicon-docker-plain colored" title="Docker"></i>
+                      <i class="devicon-github-original colored" title="GitHub Actions"></i>
+                    </div>
+                  </div>
+
+                  <!-- End Tech stack icons -->
+                  <a href="assets/img/portfolio/Gotorz/SearchDestination.png" title="Aktivitetsliste" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="Gotorz.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-SchoolProjects">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/ScoutsApplication/ScoutsProgramView.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>SpejderApplikation</h4>
+                  <p>Datamatiker - 2. semester projekt <br>Planlægnings applikation til spejder aktiviteter</p>
+                  <!-- Tech stack icons-->
+                  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+                  <div class="tech-stack-wrapper">
+                    <div class="tech-stack">
+                      <i class="devicon-csharp-plain colored" title="C#"></i>
+                      <i class="devicon-dot-net-plain colored" title="XAML/.NET"></i>
+                      <i class="devicon-microsoftsqlserver-plain colored" title="MS SQL"></i>
+                    </div> 
+                  </div>
+                  <!-- End Tech stack icons -->
+                  <a href="assets/img/portfolio/ScoutsApplication/ScoutsProgramView.png" title="Aktivitetsliste" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="ScoutsProgram.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>Kontakt</p>
+        <p>Telefon: <a href="tel:29394920">29 39 49 20</a></p>
+        <p>Email: <a href="mailto:pibm90@gmail.com">pibm90@gmail.com</a></p>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
